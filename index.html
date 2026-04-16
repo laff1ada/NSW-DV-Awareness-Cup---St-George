@@ -7,47 +7,43 @@
 
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      padding: 30px;
-      text-align: center;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f2f4f7;
     }
-    .box {
+
+    .container {
+      max-width: 750px;
+      margin: 40px auto;
       background: white;
-      max-width: 600px;
-      margin: auto;
-      padding: 25px;
-      border-radius: 8px;
+      padding: 30px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
-    a {
-      display: block;
-      margin: 18px 0;
-      font-size: 18px;
-      text-decoration: none;
-      color: #005aa7;
+
+    .logos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      margin-bottom: 25px;
+      flex-wrap: wrap;
     }
-    a:hover {
-      text-decoration: underline;
+
+    .logo {
+      max-height: 110px;
+      max-width: 220px;
+      object-fit: contain;
     }
-  </style>
-</head>
 
-<body>
-  <div class="box">
-    <h1>NSW DV Awareness Cup</h1>
-    <p>St George Region</p>
+    h1 {
+      margin-bottom: 5px;
+      font-size: 28px;
+      color: #003366;
+    }
 
-    <a href="Financial Contribution Details.png" target="_blank">
-      View Financial Contribution Details
-    </a>
-
-    <a href="https://www.dragons.com.au/news/2025/06/20/bomaderry-hosts-successful-dv-awareness-cup/" target="_blank">
-      Watch / Read DV Awareness Cup Article
-    </a>
-
-    <a href="Licensed Venues Information Sheet.pdf" target="_blank">
-      Download Licensed Venues Information Sheet (PDF)
-    </a>
-  </div>
-</body>
-</html>
+    h2 {
+      margin-top: 0;
+      font-weight: normal;
+      color: #555;
